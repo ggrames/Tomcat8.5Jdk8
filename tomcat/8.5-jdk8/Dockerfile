@@ -1,5 +1,5 @@
 #FROM andreptb/oracle-java:8
-FROM java:oracle-java8
+FROM openjdk:8u191-jdk-alpine3.8
 MAINTAINER Andre Albino Pereira <andreptb@gmail.com>
 
 ENV CATALINA_HOME="/usr/local/tomcat" \
