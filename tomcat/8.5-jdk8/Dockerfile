@@ -1,4 +1,5 @@
-FROM andreptb/oracle-java:8
+#FROM andreptb/oracle-java:8
+FROM java:oracle-java8
 MAINTAINER Andre Albino Pereira <andreptb@gmail.com>
 
 ENV CATALINA_HOME="/usr/local/tomcat" \
